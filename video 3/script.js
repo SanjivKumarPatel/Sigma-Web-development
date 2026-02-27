@@ -1,1 +1,1 @@
-alert(" Sigma web developer case")
+alert(" Sigma web developer case");
