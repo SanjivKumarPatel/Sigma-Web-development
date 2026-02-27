@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Form to apply for Sigma Web Development TA position." />
+    <title>Form - Let's Learn It</title>
+  </head>
+
+  <body>
+    <h1>Form to Apply for Sigma Web Dev TA</h1>
+
+    <form action="#" method="post">
+
+      <!-- Username -->
+      <div>
+        <label for="username">Enter your username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+          required
+          autofocus
+        />
+      </div>
+
+      <!-- Gender -->
+      <fieldset>
+        <legend>Gender</legend>
+
+        <label>
+          <input type="radio" name="gender" value="male" required />
+          Male
+        </label>
+
+        <label>
+          <input type="radio" name="gender" value="female" />
+          Female
+        </label>
+      </fieldset>
+
+      <!-- Subscribe -->
+      <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes" />
+        <label for="subscribe">Subscribe to newsletter</label>
+      </div>
+
+      <!-- Comment -->
+      <div>
+        <label for="comment">Enter your comment</label>
+        <textarea
+          id="comment"
+          name="comment"
+          rows="4"
+          placeholder="Write your comment here..."
+        ></textarea>
+      </div>
+
+      <!-- Select Fruit -->
+      <div>
+        <label for="fruits">Choose a fruit</label>
+        <select id="fruits" name="fruits" required>
+          <option value="" disabled selected>Select a fruit</option>
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="cherry">Cherry</option>
+        </select>
+      </div>
+
+      <!-- Submit Button -->
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+
+    </form>
+  </body>
+</html>
